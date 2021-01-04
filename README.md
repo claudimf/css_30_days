@@ -3,7 +3,7 @@
 
 ---
 
-1. [Dia 01 - Ícone de Social Media com hover em camadas]()
+1. [Dia 01 - Ícone de Social Media com hover em camadas](https://github.com/claudimf/css_30_days/tree/main/01_day%20-%20CSS%203D%20Layered%20Social%20Media%20Icon%20Hover%20Effects)
 2. [Dia 02 - Loader Animado em CSS puro]()
 3. [Dia 03 - Texto que muda de cor ao cruzar uma Div]()
 4. [Dia 04 - Profile Card]()
@@ -28,13 +28,13 @@
 
 ### Dia 01 - Ícone de Social Media com hover em camadas
 
-- [] Uso da Tag <span> para criação de camadas
-- [] Hover effect
-- [] Transition e Transform com CSS
-- [] nth-child( )
+- [x] Uso da Tag <span> para criação de camadas
+- [x] Hover effect
+- [x] Transition e Transform com CSS
+- [x] nth-child( )
 
 
- ![Day01]()
+ ![Day01](https://raw.githubusercontent.com/claudimf/css_30_days/main/01_day%20-%20CSS%203D%20Layered%20Social%20Media%20Icon%20Hover%20Effects/01.gif)
 
 ---
 
