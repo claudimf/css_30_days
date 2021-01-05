@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New';
+  }
+
+section {
+    background: #6B8E23;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: absolute
+  }
+
+.wrapper {
+    background: #00008B;
+    border-right: 0.5px solid #9932CC;
+    color: #6B8E23;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+  }
+
+.sliding {
+    animation: animate 5s linear infinite;
+    line-height: 220px;
+    font-size: 12em;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    white-space: nowrap;
+  }
+
+@keyframes animate{
+  0%
+    {
+      transform: translate(0, -50%);
+    }
+  100%
+    {
+      transform: translate(-50%, -50%);
+    }
+  }
