@@ -4,7 +4,7 @@
 ---
 
 1. [Dia 01 - Ícone de Social Media com hover em camadas](https://github.com/claudimf/css_30_days/tree/main/01_day%20-%20CSS%203D%20Layered%20Social%20Media%20Icon%20Hover%20Effects)
-2. [Dia 02 - Loader Animado em CSS puro]()
+2. [Dia 02 - Loader Animado em CSS puro](https://github.com/claudimf/css_30_days/tree/main/02_Day_Animate%20Loader)
 3. [Dia 03 - Texto que muda de cor ao cruzar uma Div]()
 4. [Dia 04 - Profile Card]()
 5. [Dia 05 - Hamburher Menu]()
@@ -40,10 +40,10 @@
 
 ### Dia 02 - Loader Animado em CSS puro
 
-- [] Uso das propriedades Transform, Animate e Translate em CSS puro
+- [x] Uso das propriedades Transform, Animate e Translate em CSS puro
 
 
- ![Day02]()
+ ![Day02](https://raw.githubusercontent.com/claudimf/css_30_days/main/02_Day_Animate%20Loader/02.gif)
 
 ---
 
