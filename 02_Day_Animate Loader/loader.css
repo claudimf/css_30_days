@@ -1,0 +1,52 @@
+:root {
+  --loader_size: 200px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.ring {
+    width: var(--loader_size);
+    height: var(--loader_size);
+    border-radius: 50%;
+    box-shadow: 0 4px 0 #00008B;
+    background: transparent;
+    animation: animate 1s linear infinite;
+  }
+
+.text {
+    width: var(--loader_size);
+    height: var(--loader_size);
+    border-radius: 50%;
+    color: #9932CC;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: var(--loader_size);
+    font-size: 2em;
+    background: transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    text-shadow: 1.5px 1.5px 5px #262626;
+    font-family: 'Courier New';
+  }
+
+@keyframes animate{
+  0%
+    {
+      transform: rotate(0deg);
+    }
+  100%
+    {
+      transform: rotate(360deg);
+    }
+  }
